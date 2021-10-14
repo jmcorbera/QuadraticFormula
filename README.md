@@ -10,18 +10,18 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 ### Ejecucion de la función cuadratica
 
 
-### Abrir carpeta del programa
+#### Abrir carpeta del programa
 ```diff
 - Abrir la terminal
 - cd funcionCuadratica
 ```
 
-### Ejecutar el programa
+#### Ejecutar el programa
 ```diff
 `sh quadratic.sh`
 ```
 
-### Ingresar los 3 factores
+#### Ingresar los 3 factores
 ```diff
 ingresa los valores para las variables a, b, c
 ```
@@ -48,12 +48,15 @@ Caso de Ecuación conb<sup>2</sup> − 4ac < 0
 
 ### Ejecucion de la función Producto Escalar
 
-``` 
-# Abrir carpeta del programa
+
+#### Abrir carpeta del programa
+```diff 
 - Abrir la terminal
 - cd funcionScalar
+``` 
 
-# Ejecutar el programa
+#### Ejecutar el programa
+```diff 
 `sh scalarProduct.sh`
 ``` 
 
