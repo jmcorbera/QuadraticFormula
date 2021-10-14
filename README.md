@@ -75,10 +75,18 @@ sh scalarProduct.sh
 
 ### Informe
 
-Para el desarrollo de esta función se tomó como base los videos y las diapositivas de las presentaciones de **PILA**, princiaplmente y lo aprendido de la función anterior con **FPU**. Se utilizo la IDE de **SASM** para la lógica de la función en *assembler* y la IDE de **Visual Studio Code** para la programación en *C*.
-Se comenzó a desarrollar está funcinalidad con la base de la aplicación *baseVector.asm*. Se trabajo con la etiqueta *producto_rvf* dentro de la cual se llevó a cabo la logica de la funcionalidad del calculo del producto escalar. A diferencia del la aplicación anterior en este caso no existe el pasaje de parametros desde *C*, ya que no se exijia dicha tarea. Las variables se encuentran establecidas en el archivo *assembler*, si el usuario desea modificar los valores del vector los debe realizar directamente en el codigo. La aplicación en *C* nos permite ver el resultado del producto escalar por pantalla.
+Para el desarrollo de esta función se tomó como base los videos y las diapositivas de las presentaciones de **PILA**, principalmente y lo aprendido de la función anterior con **FPU**. Se utilizo la IDE de **SASM** para la lógica de la función en *assembler* y la IDE de **Visual Studio Code** para la programación en *C*.
+Se comenzó a desarrollar está funcionalidad con la base de la aplicación *baseVector.asm*. Se trabajo con la etiqueta *producto_rvf* dentro de la cual se llevó a cabo la logica de la funcionalidad del cálculo del producto escalar. A diferencia del la aplicación anterior en este caso no existe el pasaje de parámetros desde *C*, ya que no se exigía dicha tarea. Las variables se encuentran establecidas en el archivo *assembler*, si el usuario desea modificar los valores del vector los debe realizar directamente en el código. La aplicación en *C* nos permite ver el resultado del producto escalar por pantalla.
 
+Caso con el *array de doubles* **{25.0, 0.0, 1.0, 0.0, 10.0}** con cada elemento multiplicado por **2**
 
+![Ejemplo Array 1](https://user-images.githubusercontent.com/9463666/137398582-aabb9c8e-f87b-4eeb-b984-6746586fa88a.png)
+
+Caso con el *array de doubles* **{15.0, 2.0, 1.0, 5.0}** con cada elemento multiplicado por **4**
+
+![Ejemplo Array 2](https://user-images.githubusercontent.com/9463666/137400601-a7a71143-42e3-407b-848f-22c1375b1a13.png)
 
 ### Conclusiones
+
+Fue interesante en esta ultima funcionalidad mezclar los concepto de lo visto en **FPU*** y en **PILA**, si bien, en una primera instancia paracia sencillo pues se tuvo bastante practica con el ejercicio anterior, el manejo de pila tiene su complejidad y entender su funcionamiento ayuda aplicar la logica con facilidad. En este caso tambien se presento el inconveniente con el ejecutable .sh .
 
