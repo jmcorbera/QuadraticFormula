@@ -76,7 +76,7 @@ sh scalarProduct.sh
 ### Informe
 
 Para el desarrollo de esta función se tomó como base los videos y las diapositivas de las presentaciones de **PILA**, principalmente y lo aprendido de la función anterior con **FPU**. Se utilizo la IDE de **SASM** para la lógica de la función en *assembler* y la IDE de **Visual Studio Code** para la programación en *C*.
-Se comenzó a desarrollar está funcionalidad con la base de la aplicación *baseVector.asm*. Se trabajo con la etiqueta *producto_rvf* dentro de la cual se llevó a cabo la logica de la funcionalidad del cálculo del producto escalar. A diferencia del la aplicación anterior en este caso no existe el pasaje de parámetros desde *C*, ya que no se exigía dicha tarea. Las variables se encuentran establecidas en el archivo *assembler*, si el usuario desea modificar los valores del vector los debe realizar directamente en el código. La aplicación en *C* nos permite ver el resultado del producto escalar por pantalla.
+Se comenzó a desarrollar está funcionalidad con la base de la aplicación *baseVector.asm*. Se trabajo con la etiqueta *producto_rvf* dentro de la cual se llevó a cabo la logica de la funcionalidad del cálculo del producto escalar. A diferencia del la aplicación anterior en este caso no existe el pasaje de parámetros desde *C*, ya que no se exigía dicha tarea. Las variables se encuentran establecidas en el archivo *assembler*, si el usuario desea modificar los valores del vector los debe realizar directamente en el código. La aplicación en *C* nos permite ver el resultado del producto escalar por pantalla. A continuación, se muestran algunos de los printScreen con los diferentes resultados obtenidos.
 
 Caso con el *array de doubles* **{25.0, 0.0, 1.0, 0.0, 10.0}** con cada elemento multiplicado por **2**
 
@@ -88,5 +88,5 @@ Caso con el *array de doubles* **{15.0, 2.0, 1.0, 5.0}** con cada elemento multi
 
 ### Conclusiones
 
-Fue interesante en esta ultima funcionalidad mezclar los concepto de lo visto en **FPU*** y en **PILA**, si bien, en una primera instancia paracia sencillo pues se tuvo bastante practica con el ejercicio anterior, el manejo de pila tiene su complejidad y entender su funcionamiento ayuda aplicar la logica con facilidad. En este caso tambien se presento el inconveniente con el ejecutable .sh .
+Fue interesante en esta última funcionalidad mezclar los conceptos de lo visto en **FPU*** y en **PILA**, si bien, en una primera instancia parecía sencillo pues se tuvo bastante practica con el ejercicio anterior, el manejo de pila tiene su complejidad y entender su funcionamiento ayuda aplicar la lógica con facilidad. En este caso también se presentó el inconveniente con el ejecutable .sh .
 
