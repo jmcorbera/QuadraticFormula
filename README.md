@@ -11,8 +11,8 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 
 ``` bash
 # Abrir carpeta del programa
-<li>Abrir la terminal</li>
-<li>cd funcionCuadratica</li>
+- Abrir la terminal
+- cd funcionCuadratica
 
 # Ejecutar el programa
 `sh quadratic.sh`
@@ -31,8 +31,8 @@ ingresa los valores para las variables a, b, c
 
 ``` bash
 # Abrir carpeta del programa
-* Abrir la terminal
-* cd funcionScalar
+- Abrir la terminal
+- cd funcionScalar
 
 # Ejecutar el programa
 `sh scalarProduct.sh`
