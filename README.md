@@ -25,6 +25,8 @@ ingresa los valores para las variables a, b, c
 
 ### Capturas
 
+![Ecuación de 2 Raices](https://user-images.githubusercontent.com/9463666/137333277-1d624c78-5a77-4869-b400-1e22126118c7.png)
+
 ## Producto Escalar
 
 ### Ejecucion de la función Producto Escalar
