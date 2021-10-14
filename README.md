@@ -9,22 +9,27 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 
 ### Ejecucion de la función cuadratica
 
-```diff
+
 # Abrir carpeta del programa
+```diff
 - Abrir la terminal
 - cd funcionCuadratica
+--
 
 # Ejecutar el programa
+```diff
 `sh quadratic.sh`
+```
 
 # Ingresar los 3 factores
+```diff
 ingresa los valores para las variables a, b, c
 ```
 
 ### Informe
-```diff
+
 Caso de Ecuación con 2 Raices
-![Ecuación de 2 Raices](https://user-images.githubusercontent.com/9463666/137333277-1d624c78-5a77-4869-b400-1e22126118c7.png?text=+)
+![Ecuación de 2 Raices](https://user-images.githubusercontent.com/9463666/137333277-1d624c78-5a77-4869-b400-1e22126118c7.png)
 
 Caso de Ecuación con 1 raiz
 ![Ecuación de 1 Raiz](https://user-images.githubusercontent.com/9463666/137334473-32d27196-72fd-4f3c-b510-2d5f5386db6e.png)
@@ -34,10 +39,6 @@ Caso de Ecuación con a <= 0
 
 Caso de Ecuación conb<sup>2</sup> − 4ac < 0
 ![Ecuación con b^2 − 4ac < 0](https://user-images.githubusercontent.com/9463666/137335044-52327efa-617c-4c8c-a8bd-d946afe255b5.png)
-```
-<span style="color:blue">![Ecuación con b^2 − 4ac < 0](https://user-images.githubusercontent.com/9463666/137335044-52327efa-617c-4c8c-a8bd-d946afe255b5.png)</span>
-
-<span style="color:blue">some *blue* text</span>
 
 ## Producto Escalar
 
