@@ -9,7 +9,7 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 
 ### Ejecucion de la función cuadratica
 
-``` 
+```diff
 # Abrir carpeta del programa
 - Abrir la terminal
 - cd funcionCuadratica
