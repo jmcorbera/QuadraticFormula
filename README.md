@@ -46,7 +46,7 @@ Caso de Ecuación con a <= 0
 
 ![Ecuación con a <= 0](https://user-images.githubusercontent.com/9463666/137334690-6e735923-e6fb-4074-9baa-2bf867a123e4.png)
 
-Caso de Ecuación conb<sup>2</sup> − 4ac < 0
+Caso de Ecuación con b<sup>2</sup> − 4ac < 0
 
 ![Ecuación con b^2 − 4ac < 0](https://user-images.githubusercontent.com/9463666/137335044-52327efa-617c-4c8c-a8bd-d946afe255b5.png)
 
