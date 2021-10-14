@@ -30,27 +30,28 @@ scalarProduct:
     
     producto_rvf:
         ;#Considerar metodo enter y leave
-        push ebp
-        mov ebp, esp
-        mov ebx, [ebp + 16]     ; address of first element in array
-        mov eax, dword[psize]   ; store size of array in ecx
-        mov ecx, 8              ; store size of array in ecx
-        div ecx
-        xor edx, edx        ; counter for loop 
+        push ebp                ; metodo enter
+        mov ebp, esp            ; metodo enter
+        
+        mov ebx, [ebp + 16]     ; direccion del primer elemento del Array
+        mov eax, dword[psize]   ; guardo el tamaño del array en ecx
+        mov ecx, 8              ; al tamaño del array lo divido por 8 porque son doubles
+        div ecx                 ; el resultado lo almaceno en eax
+        xor edx, edx            ; establezco un contador para el loop 
 
     loopProdScalar:  
         ;#Desarrollar la logica para recorrer el vector y hacer el producto escalar 
-        fld qword[ebp + 8]     
-        fld qword[ebx + edx * 8]                                      
-        fmul
-        fld qword[resul]
-        fadd
-        FSTP qword[resul] ; guardo resultado de la primera raiz    
-        inc edx
-        cmp eax, edx 
+        fld qword[ebp + 8]      ; cargo en la pila del FPU la variable r
+        fld qword[ebx + edx * 8]; tomo un valor del array                                      
+        fmul                    ; multiplico la var r * val double del array
+        fld qword[resul]        ; cargo la variable resul     
+        fadd                    ; le sumo a resul el resultado del producto
+        FSTP qword[resul]       ; guardo resultado resul   
+        inc edx                 ; incremento el contador
+        cmp eax, edx            ; verifico si el ultimo valor del array y loopeo
         jg loopProdScalar
         
-        mov esp, ebp
-        pop ebp
+        mov esp, ebp            ; metodo leave
+        pop ebp                 ; metodo leave
  
     ret
