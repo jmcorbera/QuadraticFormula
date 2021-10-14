@@ -31,7 +31,7 @@ Ingresar los valores para las variables a, b, c
 Para el desarrollo de esta función se tomó como base los videos y las diapositivas de las presentaciones de FPU. Se utilizo la IDE de **SASM** para la lógica de la función en *assembler* y la IDE de **Visual Studio Code** para la programación en *C*.
 Como primer paso se desarrolló la función en assembler que calcula las raíces de una función cuadrática. Se elaboró la lógica de la función sin asumir ninguna restricción simplemente cargar variables a la FPU y ejecutando las instrucciones necesarias para la lógica pensada. Luego se establecieron las etiquetas de saltos para las diferentes restricciones que pedía el enunciado (**𝑏2 − 4𝑎𝑐 ≥ 0, ∀ 𝑎, 𝑏, 𝑐 ϵ 𝑅** y **𝑎 > 0, 𝑎 ϵ 𝑅**).
 Después de tener la función lista se hicieron las modificaciones necesarias para obtener las variables desde una aplicación externa, en nuestro caso *C*.
-Una vez obtenida la funcionalidad se desarrollo en *C* la aplicación que llama a la función, le pasa los parámetros de los coeficientes y muestra en pantallas el resultado de las raícez calculadas.
+Una vez obtenida la funcionalidad requerida, se desarrolló en *C* la aplicación que llama a la función, le pasa los parámetros de los coeficientes y muestra en pantallas el resultado de las raícez calculadas.
 Por último, para sumarle una mejor presentación al desarrollo se le agregaron a la función distintos mensajes de los resultados obtenidos. A continuación, se muestran algunos de los *printScreen* obtenidos con los diferentes resultados obtenidos.
 
 Caso de Ecuación con 2 Raíces 
