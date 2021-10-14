@@ -37,6 +37,7 @@ Caso de Ecuación conb<sup>2</sup> − 4ac < 0
 ```
 <span style="color:blue">![Ecuación con b^2 − 4ac < 0](https://user-images.githubusercontent.com/9463666/137335044-52327efa-617c-4c8c-a8bd-d946afe255b5.png)</span>
 
+<span style="color:blue">some *blue* text</span>
 
 ## Producto Escalar
 
