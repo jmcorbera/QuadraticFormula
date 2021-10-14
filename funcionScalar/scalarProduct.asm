@@ -1,18 +1,16 @@
-%include "io.inc"
-extern _printf
+extern printf
 
 section .data
 
-puntero dq 25.0,0.0,1.0,0.0,10.0
+puntero dq 15.0,2.0,1.0,5.0
 psize   dq $-puntero
 resul dq 0.0
-formato db "el numero es : %f", 10,13,0
-n dq 2.0
-
+formato db "El producto Scalar del Array es : %f", 10,13,0
+n dq 4.0
 
 section .text
-global CMAIN
-CMAIN:
+    global scalarProduct
+scalarProduct:
     mov ebp, esp; for correct debugging
     
     push puntero
