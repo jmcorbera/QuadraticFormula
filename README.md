@@ -74,3 +74,11 @@ sh scalarProduct.sh
 ``` 
 
 ### Informe
+
+Para el desarrollo de esta función se tomó como base los videos y las diapositivas de las presentaciones de **PILA**, princiaplmente y lo aprendido de la función anterior con **FPU**. Se utilizo la IDE de **SASM** para la lógica de la función en *assembler* y la IDE de **Visual Studio Code** para la programación en *C*.
+Se comenzó a desarrollar está funcinalidad con la base de la aplicación *baseVector.asm*. Se trabajo con la etiqueta *producto_rvf* dentro de la cual se llevó a cabo la logica de la funcionalidad del calculo del producto escalar. A diferencia del la aplicación anterior en este caso no existe el pasaje de parametros desde *C*, ya que no se exijia dicha tarea. Las variables se encuentran establecidas en el archivo *assembler*, si el usuario desea modificar los valores del vector los debe realizar directamente en el codigo. La aplicación en *C* nos permite ver el resultado del producto escalar por pantalla.
+
+
+
+### Conclusiones
+
