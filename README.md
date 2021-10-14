@@ -9,7 +9,7 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 
 ### Ejecucion de la función cuadratica
 
-``` bash
+``` 
 # Abrir carpeta del programa
 - Abrir la terminal
 - cd funcionCuadratica
@@ -22,7 +22,7 @@ ingresa los valores para las variables a, b, c
 ```
 
 ### Informe
-``` bash
+```
 Caso de Ecuación con 2 Raices
 ![Ecuación de 2 Raices](https://user-images.githubusercontent.com/9463666/137333277-1d624c78-5a77-4869-b400-1e22126118c7.png)
 
@@ -42,7 +42,7 @@ Caso de Ecuación conb<sup>2</sup> − 4ac < 0
 
 ### Ejecucion de la función Producto Escalar
 
-``` bash
+``` 
 # Abrir carpeta del programa
 - Abrir la terminal
 - cd funcionScalar
