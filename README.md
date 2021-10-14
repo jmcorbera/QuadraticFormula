@@ -11,8 +11,8 @@ El segundo desarrollo consiste en una funcion en assembler IA-32, la cual calcul
 
 ``` bash
 # Abrir carpeta del programa
-* Abrir la terminal
-* cd funcionCuadratica
+<li>Abrir la terminal</li>
+<li>cd funcionCuadratica</li>
 
 # Ejecutar el programa
 `sh quadratic.sh`
